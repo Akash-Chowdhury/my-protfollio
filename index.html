@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Akash Chowdhury</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .w3-row-padding img {
+      margin-bottom: 12px
+    }
+
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+      width: 120px;
+      background: #222;
+    }
+
+  
+    #main {
+      margin-left: 120px
+    }
+
+    @media only screen and (max-width: 600px) {
+      #main {
+        margin-left: 0
+      }
+      .w3-jumbo
+      {
+        font-size: 50px !important;
+      }
+    }
+  </style>
+</head>
+
+<body class="w3-black">
+
+<div id="preloader"></div>
+
+<div class="topicon">
+ <a href="#">
+  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+  </svg>
+ </a>
+</div>
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+    <img class="navim" src="akashbike.jpg" style="border-bottom: 5px solid white; padding-top: 25px; width:100%; opacity: 0.7; filter: grayscale(100%); object-fit: cover;">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black btn active">
+      <i style="margin-top: 20%;" id="h" class="fa fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>ABOUT</p>
+    </a>
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-envelope w3-xxlarge"></i>
+      <p>CONTACT</p>
+    </a>
+  </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="#$" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- mobile nav  -->
+  <!-- mobile nav end -->
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo" id="tag" ><span class="w3-hide-small">I'm</span> Akash Chowdhury.</h1>
+      <p class="type">I'm <span class="auto-type"></span></p>
+      <img src="akash2.jpg"
+        style=" border: 6px solid white; border-radius: 10px; object-fit: cover; height: 350px; width:300px; opacity: 0.7; filter: grayscale(100%);"
+        alt="akash" class="w3-image" width="992" height="1108">
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey">About Me</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p>I am an undergraduate student at NIT Agartala (B.Tech). My Branch is Computer Science & Engineering. I have
+        some experience in C,C++,Java,PHP programming, Data Structure & Algorithms, Object Oriented Programming,
+        Fullstack Development & MySQL. I am eager to do various projects and enhance my skills related to professional
+        fields.
+      </p>
+      <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+      <p class="w3-wide">Programming (C, C++, Java, Python)</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" id="skills" style="height:28px;width:65%;border-radius: 0 3px 3px 0;"></div>
+      </div> 
+      <p class="w3-wide">Fullstack Development (PHP & MySQL)</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" id="skills" style="height:28px;width:73%;border-radius: 0 3px 3px 0;"></div>
+      </div>
+      <p class="w3-wide">Data Structure and Algorithm</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" id="skills" style="height:28px; width:70%;border-radius: 0 3px 3px 0;"></div>
+      </div><br>
+      <p class="w3-wide">Database and Management System</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" id="skills" style="height:28px; width:70%;border-radius: 0 3px 3px 0;"></div>
+      </div><br>
+      <p class="w3-wide">Operating System</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" id="skills" style="height:28px; width:55%;border-radius: 0 3px 3px 0;"></div>
+      </div><br>
+
+      <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">00</span><br>
+          Partners
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">10+</span><br>
+          Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">00</span><br>
+          Happy Clients
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">5+</span><br>
+          Meetings
+        </div>
+      </div>
+
+      <button onclick="clicked(alert('download'))" class="w3-button w3-light-grey w3-padding-large w3-section">
+        <i class="fa fa-download"></i> <a style="text-decoration: none;" href="Akash Chowdhury Resume.pdf"
+          download="Akash Chowdhury Resume.pdf" target="_blank">Download Resume</a>
+      </button>
+
+      <!-- Grid for pricing tables -->
+      <h3 class="w3-padding-16 w3-text-light-grey"  id="$">My Projects</h3>
+      <div class="projects" style="display: flex; flex-direction: column;">
+        <div class="fs" style="position: relative; display: flex; flex-direction: row;">
+          <div class="im" style="position: relative;">
+            <a href="http://myphp-project01.epizy.com/" target="_blank"><img style=" width: 100px; height: 100px; border: 6px solid grey;border-radius: 10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw-rAnWuc9_o_9qxzg6LKjpR9epO1IWdcDSQ&usqp=CAU" alt="proj1"></a>
+          </div>
+          <p style="margin-left: 20px; margin-top: 10px;">Implements the functioning of an E-commerce Website that performs various functions like sign up, login, logout,
+            add to cart, add items as an admin and much more, developed by using PHP and MySQL.</p>
+        </div>
+        <div class="tictoc" style="position: relative; display: flex; flex-direction: row; margin-top: 15px;">
+          <div class="im" style="position: relative;">
+            <a href="https://akash-chowdhury.github.io/Tic-Tac-Toe-Game/" target="_blank"><img style=" width: 100px; height: 100px; border: 6px solid grey;border-radius: 10px;" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoGCBUVExcVExUYGBcZFxcZGRoXFxgXGhgZFxcZGBgaGBcaICsjGhwoHRcYJDUkKCwuMjIyGiE3PDcxOysxMi4BCwsLBQUFDwUFDy4bFRsuLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLv/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIDBgcIBQT/xABKEAABAgMFAwYICgcJAQAAAAABAgMABBEFByExQQYSURMiYXGB0TJTcpGTobGyFCM1QlJUYnN0khYlM4KiwcIIFRc0Q2Ph8PEk/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ALmgQIQs0ygFEwIJEeefnmmU77ziG0/ScWlCfOogQHpBgExD5i8iykKp8MTX7Lbq0/mSgj1x1rD2lk5k0l5lpxR+aFgLp5CqKp2QHagAwcNuYY6+2AbnppDTanHFBKEJKlKOQAFSYhFi3qSUxMJYHKI31BKFrACVKJokGh5tThjxjp3omtlTh15Pzc5MZms/9qjy0+8IDYgMAmEOcYJBqcc+EA4IAMHCHMqwCiYAhpCqnHzQ9AFWDhCssYQhVc//AGAhu115MpJP8gsLccFN8NgURvCoBJzNCDTpiT2Da7U0yh9hW82sVByIORSoaKB0jMl5HypOfiHPeMXVcEP1Un7132iAsKCBjnWpabTDZcfdS22nNSjQHgBqT0DEw1s9tFKziSqVeS4B4QFUqTXLeQoBQBocSIDrVg4IiGd7SuHGAerAJgARw9oNqpOTUlEzMIbWoVCTvKVQ4AlKQSlOBxNBgYDuwI8snMocQlbSkrQoApUkhSSDqCM49MAcCBAgCJggIMx5bSnEssuPLPNbbW4ryUJKjQdQgIdeftyizkhDVFzCxVKD4KB9Nf8AIa9UUDblrvzbhdmHFLVj4RwSDolOSR0CBtBajk3MOTDp5ziic6hI+akdAFBFvXUXetpaROTbYcWsBTbShVKE/NUoHNZzxygKbbkHlCqGnCniltRHnAhnnIVQ7yVJNRmlSSMQeIjYTKUhICQABkAKAdkR3bLZGVnmyl5AC6HccSAFpJ1rqMsDAVhdree40pMvPqLjRoEuqNVN6DfPzkdJxEXeyK86ta4imVDwjJu0lkuSkw5LPCikGlRkoEVSodBBBi8riLfVMSRYcNVy6ggEnEtqFUebFPUBAdy9ZP6qmz/tf1JjMsiPjW/LR7wjTl63yVN/df1JjMsir4xsD6aPeEBr1KKmp7Bwg3EVxGcKQqsBRpiYBCXMMcCM4JKd7E5aCElBVjlw/wCYcbXXA5wAcTXr0gkL0OBEOEwzu72OQ0gDA3sTlp0w4tNYS2rQ5w5AZUvHH6znPxDnvGLnuFSTZaRpyztenFMUzeKaWnOfiHfeMXPcEr9VpH+877UwHlv/ALLedlG1spKkNLKnEjRJTQKpqB6qxS2zdtOyb6ZhhW6tOY0Uk5pUNUnuOkazUkEUOIPGKOvau95Irm5JFWs3G0/6ZOakDVHEadUBZ2xO1bVos77Z3VpoHWyecgn2pOhiR7gpTSMmbOW09JvpmGFUWnAjRSTmlQ1Se6LktO92XEil1lJMyuqeRP8ApqAFVrVqjEU1VlhRVA7l4+27dnN7iaLmFglCK+CPpr4J4cTlkaZ3tOedmHlPPKK3FqqScSToAOGQAgWlPOzDynXVFbjiqknEknIAaDQCLhuku95Ipm55HxhoWmjjyfBbg+kdBprjgAk9zVlPy1moRMApUtanEoVm2hVKJI0JIKqab+ONYmgFIVBVgDgQUCAOIdfC6UWRNlJzS2nsW82lXqUYmBMcbbGy/hMlMMDFTjSwmuW+BvI7N4JgMtWUgKfaSfBLiAeorAMa7aSEgJAoAAAOAGAjHwKkq1StCtcCFJOoOoIjUGwe0yJ6UQ6kjfACXE1qUuAY16DmDAd5fNNRrpBtCuJxPshTadTn7IbfUEAqJASBVVTQADM10gKO/tHS6ROMLHhKYIV+4tW6T+Yjsgv7OryhNPgZFpNexWERy9baET0+txvFpCQ02eKUkkq7VKUeqkTv+zlZRCZiZIwUUtp6d3nKI6qgQE1vQxsqcJ8UcOHOTGZ7P/at+Wn3hGmr1k/qqbI8Vj+ZMZmkRR1vy0+8IDXzqaYjA+2CRzjU6aQoJqanLQd8G4jUZ+2Achp1OuRGsGhwEcKZwkDexOXtgEpO8cdNOMeiGnEVxGBEBtdc8CM4A3EV6DxhtKt7A/8AsK8LyfbClor0UygMr3kfKc5+Ic94xdNwia2Un7532iKXvIH6znPxDnvGLmuFBNlpGQ5Z2vnTATwKJ5te3jD26KUphlSAUClIhl5G26LOaIFFzKx8WjQfbXTHdHDXLDMBV99ezcvJzCVy60pLtSpkZo+0OCTwPZ0V7u6+qPVaU85MOqdeUpxazUk5knIAaDoESa0bu51qSTNqRWuK2xXlG0UwWoe0aYdgSi4bZqWeKpt1aXHW1US14rg4sHMnHdpgKHM4Ju4isZK2btt6TfS/Lq3VJzHzVJ1SoagxpDYja1q0WQ41zXBQONk4tq/qSdD7DhASDephX/iHgISlIApBjCAVAgQIAjBwIaUrd6oCj769h1NOKnZdNW1kqdSkYtrOa6D5pzJ0PXFe2Bbb8o6HJZxTa8qihChwUk4KHXGsUoriqhqMsxThFfbVXSycworYJl1nEhI3myfIPg9hp0QEOlb6ptKaOS7K1fSBWjzpqfVSI1tZeDOzyS24tKGjm20ChJ8oklSuomnRElm7mJpOUw0ocd1QPmjq2FcsmoVNTJUnPdaTu1HArVWnYICs9ktnnp58MspOFCtdOahPFX8hrGnNm7KblZduXZHMQmgJzUc1KV9oqJJ64Fg2KxKNhqWbS2jM0zUct5ROKjhmTHtWN3EZaiAjt63yVN/df1JjMkifjGx9tHvCNLXo86yps6clgP3kxmez/wBq35afeEBsNJrBkw2sU5w7emEp52Og074BKklWIH/MOoVXuhyGnE6jP2wDsedad7LTXjBpVvdA16YeAgG211wyI0h2GloriMDCAoqwy4/8QGXrxVUtOd/EOe8Yue4Ij+6x9877RFK3kfKc5+Ic94xdFwqa2UnjyztPOIDrXmbWizpbfCQt1ZKGknwd6lSpdNBnTXLDOM3WjPOvuqdeWpbizUk5knoGQ6BGjbx9kxaTKUBYQ42oqQoiqTUUIUBjQxwrvrrESrwmJtaXnEmraAOYhWiyD4ShpoM86UDw3SXdhoom51PxlApppWSOC1jVfAaZ50pbSkgihxB4wa01hnfPg68YCk72rvOSKpuSSS3ipxtP+mfpJH0OI0ivdnbcek30vy6t1ScwcUqTqlQ1BjWQbFKUrXOuvXFT7Y3Qh18uybiGkqNVIUCQlRzKCNOiAn2w+0SJ+VTMIG6SSlaa13FppvJrqMQQeBEd0mI5sJs4mz5US6Vb6iorWrLeWoAEgaABKQOqJGBACBBwIDzz0020hTjq0oQkVUpRAAHSTEd/T6y9Zxr+LujlX4WU/MSFGEqXuOBa0JFVKSAcQBnQ40jPPwNzxa/yK7oDTKdv7MB/zjVP3sPVDhvAsz641/F3RmL4G54tf5Fd0LVKueLX+RWPqgNKp29swmqpxroHOw9UGNvrMBwnWqcOdh1YRmb4G54tf5Fd0D4G54tf5Fd0Bp3/ABAsz641/F3Q0NvrMJqZ1qmg53rwjNXwVzxa+vcV3Qj4G54tf5Fd0BfV4e2Mg9Z8y2zNNrWtuiUDeqo7wywihZM7riCcAFJJ6gRBKlVgVKFAcSkgeeEg6awGnFbfWYTjOtUGnOx9UBW31mVqJ1rpHOx9UZm+BueLX+RXdA+BueLX+RXdAadF4FmfXGv4u6G1bf2YTT4Y1T97H1RmlMq54tf5FYeqEfA3PFr/ACK7oDTK9vbMzTONA/vY+qFi8GzPrjf8XdGY/gbni1/kV3QtEo5q2v8AIrugNLObf2YcPhjYGvhd0BW3ll6TjQIy8LujM5k3PFr/ACK7oL4G54tf5Fd0B1NuZpDs/MuNKCkLecUlQyUCqoIi07ntq5OWs5LT8whtfKuKKVb1Qk0ocBrFLFJTUKFOg5+aFCXWrFKVKHEJJHqgNMnbuy6YTjQpked3QpN4NmazjX8XdGZPgbni1/kV3QpMo54tf5Vd0Bphy8CzchONdfOw9UF+nll0p8Ma6+dn5ozQqUc8Wv8AIruhPwNzxa/yK7oDTTd4Fm5Gca6+dj6oNV4NmaTjX8XdGZkybni1/kV3QFSjni1/lV3QGmE7e2XTGca/i7o7tk2k1MNhxhxLiDUBSDUVGYPA9BjJHwNzxa/yK7ou7+z7ZMw00+48laG3CjcSsFJUU1qsJONMaV1gLXgQUCAOGyqmeULJhG7XEwBISTiewcIdhkHdwOWh4Q4pQAqYBsnd6U+yAgFWJy0HfASnexOWggeD5PsgHoaUSnHTXohZ4w2BvYnLTpgIzekSbKmzpyWHTzkxmaz/ANq35afeEaZvTTSypymXJZcOcmMzSH7Vvy0e8IDYCwRiMtRBA73V7YB53V7YoK8nbedTaDrbLy2W2l7qUowrugc5X0q58KUgNBw24DmPNxivrrLwkToEvMEImgMNEvADEp+2BiU9ZGRpP1HewGWp/kIAb+9lgNT/ACh0CG1IpinzcYh94+3bVnt7oouYWDybf0Rlvr4JrlxphkaBMXEnMZ+2Eb5VgMOPRGcrAvBtETTa1PrcC3EpU2aFKgpQBCU05pxwpGjtzAFOBp/2sBlm8j5TnPxDnvGLouFTWyk0NDyzvtTFL3kfKc5+Ic94xc9wpP8AdSQM+Wd7MUwE+5QnADHXoh1CaQ2WcMM+MR/bLbKXs9vefJLiq7jSfDXTX7Kek+uAkak16Ib5Q5U53/cYz5b968+8TyKky6NAgBSiOlagfUBEdTtlPhW8Jx6vlk+o4QGqEJp0mFLTWKB2avdnGSBMhMwjU0CHB1FOB80XJsvtLLzrIdl172ikHBaFcFp068jpAdcKIwOfthwCEJRxzhQPGAVAgQIAjBwREI36ZwBuUpjlDCdN6u7p/wAw4lO8anLQQ4RWAVCTljDYO7gctDwgAb2Jy06YBsdNd2v/AHsj0wKQ14Pk+yAjt63yVN/df1JjMsl+0brnvo94Rpa9Qk2VN0y5Lz85MZmkP2jflp94QGxBFdXsbACdQZiWSBNJGIwAeSPmk6LpkT1GmYsBXNxGWvRAKt7AZanugMiDlGnMd5txtWGaVIUk+cEGL7upvAROpEvMEJmUpwOSXgMyn7Y1T2jWhXr3epnEF+WATMpGIyDyR80nRfA65HOooWrjLuO8242rDNKkKSfUYDRl5W3DdnNbqaLmFg8m39EfTc4J4DMnqJGd7RnnZh1TryitxaqknEknIAcNAITaE44+6XHlKccWcScSTkP/ACLjuhu7Le7OTqRyhoWmiPAGi3B9LgnTXE0AC5+73k92cnU/GZtNH5g0WsfTOg01xwFuQ0pONRnqOMEXK4Jz9kBly8X5Tna5fCHfeMXRcEf1WPvnfaIpS8j5TnPxDnvGLnuFSf7rSRnyzvbimAmO01rolJZyYc8FtJNNVKySkdJUQO2Mt29a7s28t99W8pZ7Ej5qUjRIi4v7RFoESjLQNA46SodCE4esxWl1lkpmrTYbcFW0kuLHENpKgD0FQSD0EwEl2CurcmUh6bWppsgFCEj4xQORNcEDLieqJ05dHZpRuhDgV9IOqJ66HD1RPVt8MCMu6C5XSnO4QGebw7t3ZAF1lXLS/wA4057XlpGaftDtAwrwdiNpHJCZQ83UpwS6j6aK4inEZjpjULsslaFIcAUFgpUDkQRQiMp7WWcJWcfYGIbcUkeTWo9REBq2RmUOtodbIUhaUqSRkUqFQfMYfMQG4y0S7ZaEk1LTjjQ1NAQ4kdgcA6gInoHGAOBBwIAiYQU1zyhZg4BpKqGh7DDhMJcpTHKGUmtArLTp64BYG9nl7YAO7gctDwh6EnLGAOGvC8n2w0DpU7tc49QEBFL0wRZU2NOS83OTGZrP/aN+Wn3hGnb1vkqb+6/qTGZZL9o3XPfR7wgNeKO8aDLU/wAoFN3LLUcIdAiGXmbbt2czRNFzCx8W2ch9tdPmjhrlhmAF5W3LVnNURRcwsfForgn7bnBI4Zk4YYkZztCbcfdW66StxxVSaYqUegeaFWlOuzDqnXVFbizUk5knIAaDgBFxXR3c8luzk6mrlAWmiMEfbXxVwGmeJpQKYBW2sYFC0KBFQQpKgajA5GL9uovBTOpEvMkJmUjA5JeSNU8FjUa5jUAr17vUzqTMSwCZlIxGSXkjQ8FjRWuR0IoYcoy5jvNuNq6UqQpJ9RgNduK0GfsguTpinPXpivrptvkzifg8wQmaSMDkHkj5w4L4jtHAWPAZTvI+U5z8Q57xi57hVfqtIGZed9qYpu8UfrOdrl8Id94xdFwQ/VY++d9ogON/aKkj8Hl3KEhLikqPDeTh6xFf3PWimXtRhSyAhzebJOhcSQj+PdHbF/bb2Emdk3Zc0BUmqFH5ricUHqqKHoJjLk9KOMOqacSUONqIUDgQocPaDAa7cVTr0hPJa153H+UVDsDeuhKEtWhUKAAS+kFQUBgOUSMQcsRWvRE8c2+s0I3vhjRHAKqr8oxgJEHRQlWFBU10A16oyptvPpmJ+ZeR4K3VEdQNAfVE7vIvQ+EpVLyIUhoghbquatYPzUJ+aniTiejWAbNWK5OTDcuyMVnE5hKfnKV0AQF5XByRRZYWf9V51xPUN1r2tmLCBjx2NIIl2W2WxRDaEoT1JFKnpOcewwBwIKBAAiEBVMDDkNkb3VAJpvZ5cOMLUkEUMJSqhoezph2AZSqmCuwwPC8n2wDzvJ9sBBpgewwDhSKU0hsHdwOWh4Q9DKjvYDLU90BGb1F1sqcpkGs/3kxmaQ/at+Wj3hGmL0gU2VNjTksPzJjM9n/tW/LT7wgNf13T9n2Rm+9WypkWk+pxC1hxdW1BKlBSSOalJHAYU6I0gs15o7TBbu7mKj2QFVXS3b8mUzk8mrmbTShg3wWsar4DTPOlLWI3cRlqOEPQ04rQZ+yACl1wT5+EV5end2icSZiWATMpGIyS8BorgsaK7DpSwQndxGI174eBgMrbNWLNqnG222nUuocQa7ihubqgSpR0AAPXGpOUwAGJpAcVQ4DE/wDcYIIKcRjxgMtXkfKc5+Ic94xc9woP91pI8c7hxxTFMXkfKc5+Ic94xdFwqqWUnjyztPOICfl3DDPh3xDbw7v2bQHKBXJTAFA4BUKGiXE6jgRiOnKJhuEYjE69MOoVWAy/b+wk/KqIcl1rTXBbYLievm4jtER5Mg6VbobcJ4BCq+aka/WqndDXIfOoN7qHmgM3bNXdT80RRotI1W6CjzIPOPmi8Nh9i2LPa3WqqdVTlHVDnK+yB81HR56xJm1V69YUtVIBKV8c4UmEBJOJz0hwGAOBAgQEIvg2iekpIKY5ri1hAXQHcFCSQDhXQViizttaX11/0io03btkszTKmZhAW2rMHQjJQOhHGIYLo7My3XfSnugKW/TW0frr/pFQtW2lo0/zsx6VUXKm6OzScEu0+9OPqhf+ENm/Re9Ke6ApT9NbR+uzHpVd8D9NbR+uv+kVFzpuksytCl3o+NOPqgC6SzScEu0GvKnugKcO2lo0/wA7MekVDf6a2j9dmPSq74uv/CGzfovelPdDf+Elmg0KXeg8qe6ApOd2rnnUKbdm3loUKKSpxRSRwIjlIOIIwIxFOIyMXPtzdvIS0lMPNJd32295JU5UA7wGIpjnFMSqd5aQcipIPUSBAdv9NrR+uv8ApFQX6a2j9dmPSq74udV0lmg4pdodeVPdBquksytAl2v3pw9UBTSdtLRp/nZj0qoR+mto/XX/AEiouv8Awhs3g96U90Nqujs0HFLtPvTh6oCmP01tH67MelV3wtG2lo/XZj0qouRd0lmZBLpJ/wB3/iFi6GzeD3pT3QFKnbW0frr/AKRUD9NbR+uzHpVd8XQ5dHZox3XiPvT3QSrpbM0S6ScvjT3QFAzUwt1anHVFS1KKlLUalSjmSdTHvs3aScl0cmxMutoqTuoWUipzNBBbYSKGJyYYbruNurQmpqaJVQVOsWNddsDJzsil99LhXyjiTuuboomlKCkBAv01tH67MelV3wpO2to/XZj0qoub/CWzKV3Xjw+NPdCkXQ2bTFLvpT3QFLK20tEH/OzHpVQX6a2j9dmPSq74uld0Vm0wS91cqe6C/wAJbLpXde9Ke6AphO2lo1/zsx6VUGrbW0frsx6VUXOi6KzdUujo5U90Gu6GzaYJd9Ke6ApX9NbR+uzHpVd8XBcftVMTjbrcyouKa3SlwgAlKq81RHhEUzzj0Jujsyngu+lPdEr2X2el5Jrk5ZG4kmqiTvKUeKlHPCA7ECDgQAjn21aDbDLjzx3W20lSjmcNANSTQAakiPeY5O1tjJnJR6WUaBxNAaV3VJIUg01AUkGkBCbCvelXnktONraQo7qXFKSUg6b4Hgg8dIstKgRUYiMl7Q2K/JvKZmEbqh2pUnRSTqk/+0MWFdReGWtyUnF/FGiW3Dm3wQs/Q6dOqAu1XOwGQ17oU2ac09nTCkUoKZaUiG3l7cNWe1uCi5hYq2j6Iy5RfBNcuOmRoHo2825l7OCQ5VbqxVLSCN7dy3lE+CK5VzoaZGEbC7atWmlaW0KbcRQqQuh5pwCkkZiuEZxtSdcfdU86orcWaqJzJyHZSgA4AReFyGyDsq2uamAUOPJAQ2c0N1qCsaKP0dBnjUAJDehzbKmwfFGh/eTGZ7P/AGrflp94Rp29b5Km/uv6kxmWRT8Y2fto94QGvXDXmjt6ISjm4HI698OoTSI5eDtO3Z8qp1YClq5raK0319P2RmT3wHRt+3ZeUb5SZdS2nSp5yjwSkYqPUIr+076JVJIZYdcH0lbqB5jjFNW5azs26Xn1lazxyA0SkfNSOEdiwdgbRmkhbUuUtnJbhS2D0gKO8odIBEBYtm3zy+9RyWcSDmUlKqdmsWBs1tTKzqayzqVkCqkHmuJ60HGnTl0xQNs3a2lLpK1McokCpLSkuEfujneYRGpCbcZcS40tTbiDgpOBBH/cjAa7WqnSTpDaUbuOfHo6oiF1O2ItBkhyiZlugcAyUDk4kaA5EaHrETeAyneR8pzn4hz3jF0XCqpZSfvnaecRTV4qa2nOfiHfeMXPcEkf3WD/ALzvtEBOggjnecd0PJNcRCoZXzcR2jugFrVQYw1uHwteH/dYU2K849nRD0AlCqwCqmcIcFOcO3pgm+dictB3wAoTjDoMHBUgDgQUCABEEkwqGliuXngI7t1ss1aLJbXzVpqW3AKlCv5pOojN+0divybymZhO6oa5pUnRSTqDGsm1aZEaRWd/k9JiWS08nfmSas7hAU2PnLWfoabvzjSlKbwCF7H3oPykqtlaeVomjClHFB4K+kkZjqpEGtOedmHlOvKK3FqqScSScgBw0AjyJwziY3STkm1PIVOJqDQNLNNxtyuBWPYdPYE7uiu6LYTOTqfjDi00f9MaLWPpnROmuOAthKqGhz0PGFJUCKjEGEPGvNGfsgI1esr9VTYHisejnJjM0iaut+Wn3hGlr0MLKnAc+Sz485MZos/9q35afeEBsAKoaHsMZ5v0tgvWipqvMYSEAaFSgFKI84HZGhXVaZn2dMZZvEQoWjNhWYeX5iaj1UgJjcbsiiacVNvpCmmlbqEEVCnKA1I1CQR2noi9UndwOWnR0RA7g1oNlpCfCDroX1lVRX90iJ66rTMnSANxVMsTpFPX7bHoS38PZSEqCgHwkUCt40SsDiDQHjUcIt1sbpx114dEcC9JaRZc3v0oWlAV+kcE+ukBQd2VsmVtBhYNEqWG1jilw7uPUSD2Rp9SwB7OmMgWakl5sJz30U6yoU9ca4YSQEk8B2QGX7xz+s5z8Q77xi5rhVEWWk5jlna+dMUxeR8pzn4hz3jF03CKAspNfHO+0QFgKWAKwlCamp7BwhsAjnEYcOEegGAbUKYjtEK3xSukGo0xMMbp8KmFa0/nAOJG9ictB3wFJoajtHGFpNcRBkwCUqBFYMGsNUriBh7YeBgDgQIEARgAQCI4W3FsmUkX5lCd5TaBug4jeWpKEkgZpBUCegGA495u2zdntUTRcysfForgkfTc+yOGZOGGJGeLUnXZh1Tryi44s1JOZJyAGg4AQm055yYdU68pS3FmpJzJOQA0HQIuK6a7gtbs5OD4zBTTJGCOC1jVXAaZ4mlA5mxt0ZelVuTilNuOI+JQP9PIhbg+cTlu6AnUjdrjaSxHpJ9TD6aKGR+atOiknUGNZoVXA5xG9vNlmbRZ5NwUcTUtuAc5s/zSdU/zAgK0umvELW7KTaqtmgbdUcW65JUdU8DpF3tAUwxrjXj0xkzaWx3pN9TD6aKTl9FSTkpJ1Bp7Ytu4LaZ10OSjpKkNICm1HFSQTQoJ1HCAml63yVN/df1JjMsin4xsj6aPeEaYvWV+qpsf7X9SYzNIn41vy0e8IDX6E06zFBX+WGpmdEykcx9Iqf8AcQAkjtSEnzxfoXjQ9nTHH2wsNqdl1y7o8LFCh4SFjwVp6vWKiApC5/bMSLymnj/87pG8fFODBK+lJGB7DpQ6DlHErSFoUFhQqFJIII6CIy5tjstMyDm4+jmk8xxIO4vqOhpocY81kbQzcsP/AJ5hxsapSo0/KcIDWDhABKiANScAO2KMvp21RMf/ABSywppCt51YyWoeChJ1Sk4k6mnDGC2ntTOzCdx+adWngVUHaBSsNbO2E/OOhqWbKjhU/NSDqtWQEB3LorDM3aLQpzGiHVnyDVI7VU80aZiLXfbLN2axyYopxZCnXKU3lUyHBA0HWdYk61UEBli8VP6znPxDvvGLnuDT+q0ng877UxS945/Wc5+Ic94xc9wqiLLSTlyzvZimAsSGVc3HThw6ocUoAVhCRvYnLQd8ASBvYnLQQ9DJG7iMtRwhzeFK6QDa07uIy1EBPOx09sADezy9sGpNDUdogHYKkElVRWADWAOBBwIAR5Z+VQ6hbbiQpC0lK0nJSSKEGPVAgIPYF2dny74fQla1JNUJcUFIbOhSndBJGm8VUzzxicQkpgzANuCpwz4wGhTDXWFpFIMiA4G1+ykraDYRMJJKalC0ndWiue6qhwPAgjAYYQ1sjsjK2ehSJdKipRBUtwhS1UyBIAAA4ACJJWCAgIreiKWVOceS/qTGZrP/AGrflp94Rre2bPRMMrZdFUOJKVUwNDwPHWK2sG55tqZS66+XG0LC0o3N0qKTVIWeFaVAzgLSd4a6QEChxz4w4BBKFYBmdlW3UFt1CVoUKFK0hSSOkHCIRa11NmuneS240To04QOxKwoDqFBE+EEBrAV5Z90dmoPPS86OC3aDt5JKDE4sqzWZdAbYbQ2gfNQkJHWaZnpj2EQBAJXSmMNpTQivZ0Q6BBkQGVLyPlSc/EO+8Yuq4P5KFfHO+0R5dt7q25yZVMNPckpwguJKd4E0oVJ4E0x6YmeydgtyUsiXaqUpqSpWalKxUo8K8IDopTxy06I9ECEgUgDMMbv5a5Q8RWFQBCDhIFIBFYBG7wyhwQcCAECBAgBAgQIAQUCBAHAgQIAoOBAgBBQIEAcCBAgCMHAgQAgjAgQBwIECAKDgQIAQIECAECBAgBAgQIAQIECAECBAgP/Z" alt="proj1"></a>
+          </div>
+          <p style="margin-left: 20px; margin-top: 10px;">Here I create a simple Tic Tac Toe Game using HTML, CSS and Java Script The tic-tac-toe game is for two
+            players. One player plays X and the other plays O. The players take turns placing their marks on a grid of
+            three-by-three cells. If a given player gets three marks in a row horizontally, vertically, or diagonally, then that
+            player wins the game.</p>
+        </div>
+      </div>
+      <div class="w3-row-padding" style="margin:0 -16px; display: none;">
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-light-grey w3-padding-24">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="w3-half">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-light-grey w3-padding-24">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+            </li>
+          </ul>
+        </div>
+        <!-- End Grid/Pricing tables -->
+      </div>
+
+      <!-- Testimonials -->
+      <h3 class="w3-padding-24 w3-text-light-grey">Education</h3>
+      <img src="nit.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      <p><span class="w3-large w3-margin-right">Akash Chowdhury.</span> CSE at NIT Agartala.</p>
+      <p>CGPA: 8.84 &nbsp;&nbsp;&nbsp;&nbsp; 2020-2024</p><br>
+
+
+      <!-- End About Section -->
+    </div>
+
+    <!-- Portfolio Section -->
+    <div class="w3-padding-64 w3-content" id="photos">
+      <h2 class="w3-text-light-grey">My Achievements</h2>
+      <p style="color: #757575!important;"></p>
+      <!-- Grid for photos -->
+      <div class="w3-row-padding" style="margin:0 -16px; display: flex; flex-direction: row;">
+        <div class="img1">
+          <a href="https://github.com/Akash-Chowdhury/MY-CERTIFICATES/blob/main/devtown%20web%20development.pdf" target="_blank"><img src="https://w7.pngwing.com/pngs/257/475/png-transparent-web-development-html5-video-css3-software-development-frontend-web-development-thumbnail.png" alt="frontend"></a>
+          <p style="color: #757575!important; margin-left: 10px;">Frontend <br/>
+            Certificate</p>
+        </div>
+        <div class="img2">
+          <a href="www.codechef.com/users/akash2024" target="_blank"><img src="https://cdn.codechef.com/images/cc-logo.svg" alt="codechef"></a>
+          <p style="color: #757575!important; margin-left: 25px;">3 Star</p>
+        </div>
+      </div>
+      <!-- End Portfolio Section -->
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+      <h2 class="w3-text-light-grey">Contact Me</h2>
+
+      <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> <a
+            href="https://www.google.com/maps/place/Agartala,+Tripura/@23.8510936,91.2943481,12z/data=!3m1!4b1!4m5!3m4!1s0x3753f40dc94123a7:0xd0a1263c6c40c8c7!8m2!3d23.831457!4d91.2867777"
+            target="_blank" style="text-decoration: none;">Agartala, IN</a></p>
+        <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 8131000537</p>
+        <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> <a
+            href="mailto:chowdhuryakash950@gmail.com" style="text-decoration: none;">Email:
+            chowdhuryakash950@gmail.com</a></p>
+      </div><br>
+      <p>Let's get in touch. Send me a message:</p>
+
+      <form class="" action="mail.php" target="_blank" method="post">
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" name="Name" ></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Enter Your Email" name="Email"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" name="Subject"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" name="Message"></p>
+        <p>
+          <button class="w3-button w3-light-grey w3-padding-large" name="submit" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+      <!-- End Contact Section -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+      <a href="https://www.facebook.com/akashchowdhury2001" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity" id="facebook"></i></a>&nbsp;
+      <a href="https://www.instagram.com/akash_chowdhury_01/?hl=en" target="_blank"><i class="fa fa-instagram w3-hover-opacity" id="instagram"></i></a>&nbsp;
+      <a href="https://twitter.com/20ucs141" target="_blank"><i class="fa fa-twitter w3-hover-opacity" id="twitter"></i></a>&nbsp;
+      <a href="https://www.linkedin.com/in/akash-chowdhury-224467225/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity" id="linkedin"></i></a>&nbsp;
+      <p class="w3-medium">Copyright ©
+        <script>document.write(new Date().getFullYear())</script> All Rights Reserved.
+      </p>
+      <!-- End footer -->
+    </footer>
+
+    <!-- END PAGE CONTENT -->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed= new Typed(".auto-type",
+    {
+      strings: ["a Fullstack Developer", "a Programmer", "an Engineer"],
+      typeSpeed:120,
+      backSpeed:120,
+      loop:true,
+    });
+  </script>
+  <script>
+    var loader=document.getElementById("preloader");
+    window.addEventListener("load", function(){
+      loader.style.display="none";
+    })
+  </script>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
